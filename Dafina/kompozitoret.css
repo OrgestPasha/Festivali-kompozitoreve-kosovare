@@ -1,0 +1,655 @@
+:root {
+  --colorbackground: #fffbf1;
+  --colorgray: #c4c6bb;
+  --colororange: #ffb800;
+  --colorblack: #0d0d0d;
+  --colorgreen: #595f39;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background-color: #fffbf1;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  display: inline;
+}
+
+footer a:hover {
+  color: var(--colororange);
+}
+
+a:hover {
+  position: relative;
+  bottom: 2px;
+}
+
+button:hover {
+  position: relative;
+  bottom: 3px;
+  cursor: pointer;
+}
+
+.kliko-per-me-shume a:hover {
+  box-shadow: -5px 5px 5px 1px #0d0d0d78;
+}
+
+#header-opacity {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 30%,
+    var(--colorblack) 50% 100%
+  );
+  opacity: 0.7;
+  width: 100%;
+  height: 583px;
+  position: absolute;
+}
+
+#nav-bar-head {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+  border-radius: 6px;
+  margin: 40px;
+  width: 90%;
+  height: 83px;
+  margin-left: 5%;
+  display: flex;
+}
+
+#phone-dropdown {
+  position: absolute;
+
+  top: 120px;
+  left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.text-header img {
+  scale: 0.23;
+  position: absolute;
+}
+
+#titulli-head1 {
+  top: -20px;
+  left: -480px;
+}
+
+#titulli-head2 {
+  top: 10px;
+  left: -305px;
+}
+
+#logo-header {
+  width: 95px;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#nav-section {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 130px;
+  color: var(--colorbackground);
+}
+
+#nav-section ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 50px;
+}
+
+#nav-section ul li {
+  font-size: 18px;
+  margin: 20px;
+  font-weight: 250;
+  letter-spacing: 0.5px;
+}
+
+#dropdown {
+  position: absolute;
+  display: none;
+}
+
+a {
+  color: var(--colorbackground);
+  text-decoration: none;
+}
+
+#opacity-top {
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--colorblack) 30%,
+    transparent 100%
+  );
+  opacity: 0.7;
+  position: absolute;
+  top: -50px;
+  z-index: -1;
+}
+
+/* qitu ja nis footerii*/
+footer {
+  background: var(--colorblack);
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 6050px;
+  color: var(--colorbackground);
+  display: flex;
+}
+
+footer > #footer-1 {
+  width: 60%;
+  height: 100%;
+
+  padding: 70px;
+}
+
+footer > #footer-1 > h1 {
+  margin-bottom: 40px;
+  border-right: 1px solid var(--colorbackground);
+  padding: 10px;
+  padding-left: 0px;
+}
+
+footer > #footer-1 > a {
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+footer > #footer-1 > a > i {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+footer > #footer-1 > p {
+  font-weight: 100;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+footer > #footer-2 {
+  width: 50%;
+  padding: 70px;
+  height: 100%;
+}
+
+footer > #footer-2 > h1 {
+  margin-bottom: 40px;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+footer > #footer-2 > a {
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+footer > #footer-2 > a > i {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+footer > #footer-2 > p {
+  font-weight: 100;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+/*qitu ja nis kodi*/
+
+.bordi-head {
+  text-align: center;
+}
+
+.kompozitoret {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0px;
+  margin-bottom: 200px;
+}
+
+.komp-head h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 50px;
+  font-size: 500;
+  letter-spacing: 0px;
+  color: black;
+}
+
+.komp-head hr {
+  margin-top: 20px;
+  width: 173.03px;
+  border: 2px solid #ffb800;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.komp_content {
+  margin-right: 80px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.text {
+  flex: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  text-align: justify;
+  font-size: 25px;
+  font-weight: 450;
+  width: 759px;
+  height: 329px;
+  letter-spacing: 0px;
+  margin-left: 69px;
+  margin-top: 20px;
+}
+
+.text h3 {
+  margin-left: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.text span {
+  display: block;
+  margin-left: 70px;
+}
+
+.yellow-block {
+  height: 398px;
+  width: 389px;
+  position: absolute;
+  background: linear-gradient(#ffb800, #ffdd84);
+  z-index: -1;
+  scale: 0.7;
+}
+
+.yellow1 {
+  top: 20px;
+  left: 80px;
+}
+
+.yellow2 {
+  top: 20px;
+  right: 80px;
+}
+
+.komp_content hr {
+  width: 173.03px;
+  border: 2px solid #ffb800;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+.image {
+  flex: 0 0 auto;
+  max-width: 389px;
+  max-height: 389px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.text-v2 p {
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-v1 p {
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-v2 {
+  position: relative;
+  left: 35px;
+}
+
+.kompozitoret-v1 {
+  margin-bottom: 50px;
+}
+
+.kompozitoret-v2 {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #nav-bar-head {
+    opacity: 0.8;
+    width: 100%;
+    margin-left: 0;
+    height: 110px;
+    position: relative;
+    top: -40px;
+  }
+  #logo-header {
+    width: 80px;
+    height: auto;
+    margin-left: 5px;
+    position: absolute;
+    top: 10px;
+    left: 35%;
+  }
+
+  .text-header img {
+    scale: 0.12;
+    position: absolute;
+  }
+
+  #titulli-head1 {
+    top: 25px;
+    left: -640px;
+  }
+
+  #titulli-head2 {
+    top: 50px;
+    left: -415px;
+  }
+
+  .nav-item {
+    display: none;
+    font-size: 10px;
+    margin-right: -30px;
+    position: relative;
+    left: -30px;
+    top: 40px;
+    z-index: 2;
+  }
+
+  #phone-dropdown {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    border-radius: 6px;
+  }
+
+  #dropdown-btn {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+  }
+
+  #phone-dropdown ul {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 5px;
+  }
+
+  .drop-item {
+    font-size: 10px;
+    font-weight: 200;
+  }
+  #lang-btn > .nav-item {
+    display: block;
+  }
+
+  #lang-btn {
+    display: block;
+  }
+
+  #dropdown {
+    position: absolute;
+    display: block;
+    left: -130px;
+    top: 60px;
+  }
+
+  #albania {
+    position: absolute;
+    top: 85px;
+    left: 100px;
+  }
+
+  #english {
+    position: absolute;
+    top: 85px;
+    left: 125px;
+  }
+
+  .nav-right a {
+    left: -50px;
+  }
+
+  footer {
+    height: 150px;
+    top: 8450px;
+    overflow: hidden;
+    display: flex;
+  }
+
+  footer h1 {
+    font-size: 7px;
+    width: 100%;
+    position: relative;
+    top: -50px;
+  }
+
+  footer > #footer-1 > h1 {
+    width: 140px;
+  }
+
+  footer > #footer-2 > h1 {
+    position: relative;
+    left: -10px;
+  }
+
+  #icon1 {
+    position: relative;
+    left: 50px;
+    top: -80px;
+  }
+
+  #icon2 {
+    position: relative;
+    top: -125px;
+    left: 100px;
+  }
+
+  #icon3 {
+    position: relative;
+    left: -20px;
+    top: -80px;
+  }
+
+  #icon4 {
+    position: relative;
+    top: -125px;
+    left: 30px;
+  }
+
+  footer > #footer-2 > h1 {
+    width: 200px;
+  }
+
+  #copy {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    left: -20px;
+    top: -170px;
+    width: 300px;
+  }
+
+  #footer-1 {
+    position: relative;
+    left: -60px;
+    width: 200px;
+  }
+
+  #footer-2 {
+    position: absolute;
+    width: 250px;
+
+    right: 30px;
+  }
+
+  footer > #footer-1 a {
+    font-size: 14px;
+  }
+
+  footer > #footer-2 a {
+    font-size: 13px;
+  }
+
+  /*qitu ja nis kodi responsive per qit faqe skom qka shkoj ma nalt*/
+
+  .kompozitoret {
+    width: 300px;
+    position: relative;
+  }
+
+  .komp_content .text p {
+    width: 220px;
+    font-size: 12px;
+    position: relative;
+    top: 40px;
+  }
+
+  .komp_content .text {
+    position: relative;
+    margin-bottom: 250px;
+    width: 350px;
+    left: 30px;
+  }
+
+  .komp_content .text h3 {
+    position: absolute;
+    top: -20px;
+    width: 300px;
+  }
+
+  .komp_content .text hr {
+    position: relative;
+    top: -376px;
+  }
+
+  .image {
+    scale: 0.6;
+    position: absolute;
+    right: -50px;
+  }
+
+  .text-v2 {
+    position: relative;
+    left: 0;
+  }
+
+  .img1 {
+    top: 400px;
+    right: -35px;
+  }
+
+  .img2 {
+    top: 1200px;
+    right: -35px;
+  }
+
+  .img3 {
+    top: 2020px;
+    right: -35px;
+  }
+
+  .img4 {
+    top: 2840px;
+    right: -35px;
+  }
+
+  .img5 {
+    top: 3600px;
+    right: -35px;
+  }
+
+  .img6 {
+    top: 4420px;
+    right: -35px;
+  }
+
+  .img7 {
+    top: 5220px;
+    right: -35px;
+  }
+
+  .img8 {
+    top: 6000px;
+    right: -35px;
+  }
+
+  .img9 {
+    top: 6840px;
+    right: -35px;
+  }
+
+  .img10 {
+    top: 7620px;
+    right: -35px;
+  }
+
+  .text-nr1 {
+    position: relative;
+    top: 420px;
+  }
+}

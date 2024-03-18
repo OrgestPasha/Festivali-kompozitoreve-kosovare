@@ -1,0 +1,822 @@
+/*Qitu ja nis kodi qe duhet me copy paste n qdo page*/
+
+:root {
+  --colorbackground: #fffbf1;
+  --colorgray: #c4c6bb;
+  --colororange: #ffb800;
+  --colorblack: #0d0d0d;
+  --colorgreen: #595f39;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background-color: #fffbf1;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  display: inline;
+}
+
+footer a:hover {
+  color: var(--colororange);
+}
+
+a:hover {
+  position: relative;
+  bottom: 2px;
+}
+
+button:hover {
+  position: relative;
+  bottom: 3px;
+  cursor: pointer;
+}
+
+.kliko-per-me-shume a:hover {
+  box-shadow: -5px 5px 5px 1px #0d0d0d78;
+}
+
+#header-opacity {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 30%,
+    var(--colorblack) 50% 100%
+  );
+  opacity: 0.7;
+  width: 100%;
+  height: 583px;
+  position: absolute;
+}
+
+#nav-bar-head {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+  border-radius: 6px;
+  margin: 40px;
+  width: 90%;
+  height: 83px;
+  margin-left: 5%;
+  display: flex;
+}
+
+#phone-dropdown {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  z-index: 3;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.text-header img {
+  scale: 0.23;
+  position: absolute;
+}
+
+#titulli-head1 {
+  top: -20px;
+  left: -480px;
+}
+
+#titulli-head2 {
+  top: 10px;
+  left: -305px;
+}
+
+#logo-header {
+  width: 95px;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 0px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#nav-section {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 130px;
+  color: var(--colorbackground);
+}
+
+#nav-section ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 50px;
+}
+
+#nav-section ul li {
+  font-size: 18px;
+  margin: 20px;
+  font-weight: 250;
+  letter-spacing: 0.5px;
+}
+
+#dropdown {
+  position: absolute;
+  display: none;
+}
+
+a {
+  color: var(--colorbackground);
+  text-decoration: none;
+}
+
+/* qitu ja nis footerii*/
+footer {
+  background: var(--colorblack);
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  top: 2735px;
+  color: var(--colorbackground);
+  display: flex;
+}
+
+footer > #footer-1 {
+  width: 60%;
+  height: 100%;
+
+  padding: 70px;
+}
+
+footer > #footer-1 > h1 {
+  margin-bottom: 40px;
+  border-right: 1px solid var(--colorbackground);
+  padding: 10px;
+  padding-left: 0px;
+}
+
+footer > #footer-1 > a {
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+footer > #footer-1 > a > i {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+footer > #footer-1 > p {
+  font-weight: 100;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+footer > #footer-2 {
+  width: 50%;
+  padding: 70px;
+  height: 100%;
+}
+
+footer > #footer-2 > h1 {
+  margin-bottom: 40px;
+  padding: 10px;
+  padding-left: 0px;
+}
+
+footer > #footer-2 > a {
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+footer > #footer-2 > a > i {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+footer > #footer-2 > p {
+  font-weight: 100;
+  margin-right: 20px;
+  margin-top: 70px;
+}
+
+.etapat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.etapa_content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 1093px;
+  height: 194px;
+}
+
+.etapa_content img {
+  margin-right: 80px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+}
+
+.image-v1:hover {
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.image-v1 {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.image-v1 {
+  position: relative;
+  z-index: 2;
+}
+
+.image-v2 {
+  position: absolute;
+  left: 14%;
+  z-index: 0;
+}
+
+.etapat_content img:hover {
+  opacity: 0;
+}
+
+.etapat h1 {
+  color: #ffb800;
+  font-style: bold;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  height: 25px;
+}
+
+.etapat p {
+  font-weight: 200;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: white;
+  text-align: justify;
+}
+
+#opacity-top {
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--colorblack) 30%,
+    transparent 100%
+  );
+  opacity: 0.7;
+  position: absolute;
+  top: -50px;
+  z-index: -1;
+}
+
+.etapa_head p {
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.head_name p {
+  font-size: 19px;
+  height: 150px;
+  letter-spacing: 0.2px;
+  color: black;
+  padding-top: 5px;
+  margin: 0;
+  white-space: wrap;
+  text-align: justify;
+}
+
+.head_name h1 {
+  padding-top: 20px;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: black;
+  height: 80px;
+}
+
+.head_name {
+  padding-left: 140px;
+  width: 90%;
+}
+
+.bordi-head {
+  text-align: center;
+}
+
+.bordi-head h1 {
+  font-size: 28px;
+  padding-top: 50px;
+  font-size: 500;
+  letter-spacing: 0px;
+  color: black;
+}
+
+.bordi-head hr {
+  margin-top: 10px;
+  width: 173px;
+  border: 2px solid #ffb800;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bordi_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.image {
+  flex: 0 0 auto;
+  width: 359px;
+  height: 357px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.text {
+  flex: 1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 450;
+  width: 759px;
+  height: 279px;
+  letter-spacing: 0px;
+  margin-left: 69px;
+  margin-bottom: 15px;
+}
+
+.text h3 {
+  margin-bottom: 5px;
+  margin-left: 70px;
+}
+
+.text span {
+  display: block;
+  margin-left: 70px;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 359px;
+  height: 277px;
+  background-color: #ffd700;
+  z-index: -1;
+  margin-left: 30px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.virtuoso {
+  text-align: center;
+  padding: 5px;
+  position: relative;
+}
+
+.virtuoso h1 {
+  font-size: 28px;
+  padding-top: 50px;
+  font-size: 500;
+  letter-spacing: 0px;
+  color: black;
+}
+
+.virtuoso hr {
+  margin-top: 10px;
+  width: 173px;
+  border: 2px solid #ffb800;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.virtuoso p {
+  margin-top: 40px;
+  text-align: justify;
+  width: 1199px;
+  margin-left: 100px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.virtuoso::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/Background-picc.png");
+  background-size: cover;
+  z-index: -1;
+  margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #nav-bar-head {
+    opacity: 0.8;
+    width: 100%;
+    margin-left: 0;
+    height: 110px;
+    position: relative;
+    top: -40px;
+  }
+  #logo-header {
+    width: 80px;
+    height: auto;
+    margin-left: 5px;
+    position: absolute;
+    top: 10px;
+    left: 35%;
+  }
+
+  .text-header img {
+    scale: 0.12;
+    position: absolute;
+  }
+
+  #titulli-head1 {
+    top: 25px;
+    left: -640px;
+  }
+
+  #titulli-head2 {
+    top: 50px;
+    left: -415px;
+  }
+
+  .nav-item {
+    display: none;
+    font-size: 10px;
+    margin-right: -30px;
+    position: relative;
+    left: -30px;
+    top: 40px;
+    z-index: 2;
+  }
+
+  #phone-dropdown {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+    top: 120px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(3px);
+    border-radius: 6px;
+  }
+
+  #dropdown-btn {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+  }
+
+  #phone-dropdown ul {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 5px;
+  }
+
+  .drop-item {
+    position: relative;
+    font-size: 10px;
+    font-weight: 200;
+    z-index: 2;
+  }
+  #lang-btn > .nav-item {
+    display: block;
+  }
+
+  #lang-btn {
+    display: block;
+  }
+
+  #dropdown {
+    position: absolute;
+    display: block;
+    left: -130px;
+    top: 60px;
+  }
+
+  #albania {
+    position: absolute;
+    top: 85px;
+    left: 100px;
+  }
+
+  #english {
+    position: absolute;
+    top: 85px;
+    left: 125px;
+  }
+
+  .nav-right a {
+    left: -50px;
+  }
+
+  footer {
+    height: 150px;
+    top: 4950px;
+    overflow: hidden;
+    display: flex;
+  }
+
+  footer h1 {
+    font-size: 7px;
+    width: 100%;
+    position: relative;
+    top: -50px;
+  }
+
+  footer > #footer-1 > h1 {
+    width: 140px;
+  }
+
+  footer > #footer-2 > h1 {
+    position: relative;
+    left: -10px;
+  }
+
+  #icon1 {
+    position: relative;
+    left: 50px;
+    top: -80px;
+  }
+
+  #icon2 {
+    position: relative;
+    top: -125px;
+    left: 100px;
+  }
+
+  #icon3 {
+    position: relative;
+    left: -20px;
+    top: -80px;
+  }
+
+  #icon4 {
+    position: relative;
+    top: -125px;
+    left: 30px;
+  }
+
+  footer > #footer-2 > h1 {
+    width: 200px;
+  }
+
+  #copy {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    left: -20px;
+    top: -170px;
+    width: 300px;
+  }
+
+  #footer-1 {
+    position: relative;
+    left: -60px;
+    width: 200px;
+  }
+
+  #footer-2 {
+    position: absolute;
+    width: 250px;
+
+    right: 30px;
+  }
+
+  footer > #footer-1 a {
+    font-size: 14px;
+  }
+
+  footer > #footer-2 a {
+    font-size: 13px;
+  }
+
+  .head_name {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    right: 120px;
+  }
+
+  .head_name h1 {
+    position: relative;
+    text-align: center;
+    right: 20px;
+    width: 300px;
+  }
+
+  .head_name p {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  .head_name > #p1 {
+    position: relative;
+    top: 180px;
+  }
+
+  .etapat {
+    width: 400px;
+    height: 2400px;
+    position: relative;
+    top: 300px;
+  }
+
+  .etapa_content {
+    position: relative;
+    left: 40%;
+    margin-bottom: 350px;
+    top: 100px;
+  }
+
+  .etapa4 {
+    margin-bottom: -100px;
+  }
+  .etapa_content h1 {
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 50px;
+  }
+
+  .etapat p {
+    margin-bottom: 50px;
+    font-size: 11px;
+    height: 500px;
+    width: 250px;
+  }
+
+  .etapa_head p {
+    margin-bottom: -80px;
+    font-size: 40px;
+    width: 250px;
+    position: relative;
+    left: -5%;
+    font-weight: bold;
+  }
+
+  .etapa-nr {
+    position: relative;
+    top: -450px;
+    left: 26%;
+    margin-top: 50px;
+  }
+
+  .image-v2 {
+    position: absolute;
+    left: 0%;
+    z-index: 0;
+  }
+  /*qitu ja nis bordi festivalit*/
+
+  .bordi_festivalit {
+    position: relative;
+    top: 300px;
+  }
+
+  .bordi_content .image {
+    scale: 0.7;
+    right: 150px;
+    position: relative;
+    top: -70px;
+  }
+
+  .bordi_content .text {
+    position: relative;
+    width: 270px;
+    right: 530px;
+    top: 320px;
+  }
+
+  .bordi_content .text p {
+    font-size: 12px;
+    width: 250px;
+  }
+
+  .bordi_content .text h3 {
+    margin-top: 70px;
+  }
+
+  /*qitu maron*/
+
+  .virtuoso {
+    position: relative;
+    top: 650px;
+    width: 400px;
+    right: 100px;
+  }
+
+  .virtuoso h1 {
+    position: relative;
+    text-align: center;
+    left: 95px;
+    width: 300px;
+  }
+
+  .virtuoso hr {
+    position: relative;
+    left: 50px;
+  }
+
+  .virtuoso p {
+    width: 250px;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+  }
+}
+
+/*
+.etapat {
+    position: relative;
+    top: 200px;
+    width: 300px;
+    height: 1900px;
+  }
+
+  .etapa_content {
+    position: relative;
+    top: -150px;
+  }
+
+  .etapa_content p {
+    font-size: 10px;
+    width: 220px;
+    position: relative;
+    left: 430px;
+    padding-bottom: 200px;
+  }
+
+  .etapa_content h1 {
+    position: relative;
+    left: 420px;
+    text-align: center;
+    width: 250px;
+    font-size: 15px;
+  }
+
+  .etapa_content .image-v2 {
+    left: 470px;
+  }
+
+  .etapa_content .image-v1 {
+    position: absolute;
+    left: 470px;
+  }
+
+  .etapa_head {
+    position: relative;
+    top: -200px;
+  }
+*/
